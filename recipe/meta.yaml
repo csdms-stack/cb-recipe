@@ -1,4 +1,4 @@
-{% set VERSION = os.environ.get('BABEL_VERSION', '14')|string %}
+{% set VERSION = os.environ.get('BABEL_VERSION', '20')|string %}
 {% set babel_versions = {'14': '1.4.0', '20': '2.0.0'} %}
 {% set babel_version = babel_versions[VERSION] %}
 
