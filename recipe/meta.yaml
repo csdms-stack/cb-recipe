@@ -1,0 +1,23 @@
+{% set VERSION = os.environ.get('BABEL_VERSION', '14')|string %}
+{% set babel_versions = {'14': '1.4.0', '20': '2.0.0'} %}
+{% set babel_version = babel_versions[VERSION] %}
+
+package:
+  name: cb
+  version: {{ VERSION }}
+
+build:
+  number: 0
+  track_features:
+    - cb{{ VERSION }}
+
+requirements:
+  run:
+    - cca-babel {{ babel_version }}
+
+test: {}
+
+about:
+  home: https://github.com/csdms/cca-babel
+  summary: A meta-package to track cca-babel features.
+  license: GNU Lesser General Public License v2.1
