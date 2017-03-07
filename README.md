@@ -5,7 +5,7 @@
 
 # Current Build Status
 
-Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/cb-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/cb-recipe)
+Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/cb-recipe.svg?branch=20)](https://travis-ci.org/csdms-stack/cb-recipe)
 
 # About cb
 
@@ -13,7 +13,7 @@ Home: https://github.com/csdms-stack/cb-recipe
 
 Package license: GNU Lesser General Public License v2.1
 
-Summary: A metapackage for cca-babel
+Summary: A metapackage for cca-babel-2.0
 
 
 # Installing cb
